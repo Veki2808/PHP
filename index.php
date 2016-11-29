@@ -1,11 +1,14 @@
 <?php
 
-    $var = 25;
-    $name = "Vernes";
+    $hello = "World";
+    $google = "Google Link";
 
-    $var = ($var * 4);
+    echo "Hello = $hello <br />";
+    echo 'Hello = $hello <br />' ;
+    echo 'Hello' .$hello. '<br />';
 
-    echo "$var";
-    echo $var, $name;
-    echo "25*4 = ", $var;
+
+    echo '<a href = "http://www.google.com" target = "_blank">'.$google.'</a>'.'<br />';
+
+    echo "\"Hello World\"";
  ?>
