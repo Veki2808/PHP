@@ -1,9 +1,11 @@
 <?php
 
-    // this is php comment
-    # this is php comment
-    /* this is php comment */
+    $var = 25;
+    $name = "Vernes";
 
-    echo "Hello <br />  <i>World</i>";
+    $var = ($var * 4);
 
+    echo "$var";
+    echo $var, $name;
+    echo "25*4 = ", $var;
  ?>
