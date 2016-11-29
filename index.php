@@ -1,14 +1,17 @@
 <?php
 
-    $hello = "World";
-    $google = "Google Link";
+    $a = 6;
+    $b = 3;
 
-    echo "Hello = $hello <br />";
-    echo 'Hello = $hello <br />' ;
-    echo 'Hello' .$hello. '<br />';
+    echo " Add: ";
+    echo $a + $b .'<br />';
 
+    echo " Subtract: ";
+    echo $a - $b .'<br />';
 
-    echo '<a href = "http://www.google.com" target = "_blank">'.$google.'</a>'.'<br />';
+    echo " Product: ";
+    echo $a * $b .'<br />';
 
-    echo "\"Hello World\"";
+    echo " Divide: ";
+    echo $a / $b .'<br />';
  ?>
